@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        //= template/head.html
+    </head>
+    <body>
+        //= template/svg.html
+        //= template/header.html
+        <div class="contact-top" style="background-image: url('img/bg.jpg');">
+            <div class="container">
+                <div class="contact-top__inner">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-5">
+                        <div class="contact-info__inner">
+                            <div class="contact-info__img">
+                                <img src="img/svg/contact-img.svg" alt="" class="img-fluid">
+                            </div>
+                            <div class="contact-info__item">
+                                <div class="contact-info__title">ADDRESS</div>
+                                <p>Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+                            </div>
+                            <div class="contact-info__item">
+                                <div class="contact-info__title">PHONE</div>
+                                <a href="tel:+6281273134321" class="contact-info__link">
+                                    <svg><use xlink:href="#phone"></use></svg>
+                                    +62-812-7313-4321
+                                </a>
+                                <a href="tel:+628170001234" class="contact-info__link">
+                                    <svg><use xlink:href="#phone"></use></svg>
+                                    +62-817-000-1234
+                                </a>
+                            </div>
+                            <div class="contact-info__item">
+                                <div class="contact-info__title">ONLINE SERVICE</div>
+                                <a href="afrianska.com" class="contact-info__link">
+                                    <svg><use xlink:href="#web"></use></svg>
+                                    www.afrianska.com
+                                </a>
+                                <a href="mailto:hello.afrian@gmail.com" class="contact-info__link">
+                                    <svg><use xlink:href="#mail"></use></svg>
+                                    hello.afrian@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-7">
+                        <div class="contact-info__form">
+                            <form>
+                                <div class="contact-info__form-title">SEND US MESSAGE</div>
+                                <div class="contact-info__form-row">
+                                    <label for="name">Full Name</label>
+                                    <input id="name" type="text" placeholder="Your Name">
+                                </div>
+                                <div class="contact-info__form-row">
+                                    <label for="email">Email</label>
+                                    <input id="email" type="text" placeholder="Your Email">
+                                </div>
+                                <div class="contact-info__form-row">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="button" class="button button-primary">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="container">
+                <div class="map__inner">
+                    <div id="map"></div>
+                    <img src="img/map.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        //= template/footer.html
+    </body>
+</html>
